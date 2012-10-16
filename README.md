@@ -1,17 +1,23 @@
 mate-globalmenu
 ===============
 
-Fork of gnome2-globalmenu, for MATE desktop
+Fork of [gnome2-globalmenu](http://code.google.com/p/gnome2-globalmenu), for [MATE desktop](http://mate-desktop.org/)
 
 Screenshots: http://jas.gemnetworks.com/
-
-original project page: http://code.google.com/p/gnome2-globalmenu
 
 Notes
 --
 vala has been disabled in configure script, because regardless of what I tried,
 valac always failed at some point in the build. I concluded it is not worth the
 effort trying to get vala to work with MATE (v1.4 at the time of writing).
+
+This is ok when working with a (upstream) release tarball, but not when building
+code checked out from svn (in which case vala is a must) [1]
+
+Basing off upstream v0.7.10, the last release in the 0.7.x series (Nov 2010), 
+which is the latest as of date of writing (Oct 2012).
+
+The new 0.9.x branch is based on GNOME 3.
 
 debian (amd64 binary and source) packages:
 --
