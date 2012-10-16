@@ -2,34 +2,61 @@ mate-globalmenu
 ===============
 
 Fork of gnome2-globalmenu, for MATE desktop
+
 Screenshots: http://jas.gemnetworks.com/
---
+
 original project page: http://code.google.com/p/gnome2-globalmenu
+
+
+debian (amd64 binary and source) packages:
 --
 
-mate-globalmenu debian (amd64 binary & source) packages:
+1. Get the key:
 
-wget http://jas.gemnetworks.com/jasmineaura.gpg.key -O- | sudo apt-key add -
+    <pre>
+    wget http://jas.gemnetworks.com/jasmineaura.gpg.key -O- | sudo apt-key add -
+    </pre>
 
-# /etc/apt/sources.list.d/jas.list
-deb http://jas.gemnetworks.com/debian debian main
-deb-src http://jas.gemnetworks.com/debian debian main
+2. Add to your apt sources (ex. /etc/apt/sources.list.d/mate.list)
 
-sudo apt-get install mate-globalmenu
+    <pre>
+    deb http://jas.gemnetworks.com/debian debian main
+    deb-src http://jas.gemnetworks.com/debian debian main
+    </pre>
 
-And to enable it on your mate-panel:
+3. Install
 
-mateconftool-2 --set /apps/mate_settings_daemon/gtk-modules/globalmenu-mate-panel --type bool true
+    <pre>
+    sudo apt-get install mate-globalmenu
+    </pre>
+
+  or get the source, build deb, and install:
+
+  <pre>
+  apt-get source mate-globalmenu
+  cd mate-globalmenu
+  debuild
+  dpkg -i ../mate-globalmenu*.deb
+  </pre>
+
+4. Enable globalmenu on your mate-panel:
+
+    <pre>
+    mateconftool-2 --set /apps/mate_settings_daemon/gtk-modules/globalmenu-mate-panel --type bool true
+    </pre>
+
+* This is provided you don't disable the plugin (default enabled):
+
+    <pre>
+    mateconftool-2 --get /apps/mate_settings_daemon/gtk-modules/globalmenu-plugin
+    </pre>
+    (should output "true")
 
 
-This is provided you don't disable the plugin (default enabled):
+* And as the parent project notes: [1]
 
-mateconftool-2 --get-type /apps/mate_settings_daemon/gtk-modules/globalmenu-plugin
-
-  (should output "true")
-
-And as the parent project notes:
-"loading and unloading the module on the fly is yet experimental. Random crashes
+    "loading and unloading the module on the fly is yet experimental. Random crashes
 do occur: Save your work before toggling Global Menu! So please immediately 
 restart your gnome sessionafter changing this key"
-http://code.google.com/p/gnome2-globalmenu/wiki/BuildFromSource
+
+  [1]: http://code.google.com/p/gnome2-globalmenu/wiki/BuildFromSource
