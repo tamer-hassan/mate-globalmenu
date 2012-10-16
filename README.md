@@ -7,6 +7,11 @@ Screenshots: http://jas.gemnetworks.com/
 
 original project page: http://code.google.com/p/gnome2-globalmenu
 
+Notes
+--
+vala has been disabled in configure script, because regardless of what I tried,
+valac always failed at some point in the build. I concluded it is not worth the
+effort trying to get vala to work with MATE (v1.4 at the time of writing).
 
 debian (amd64 binary and source) packages:
 --
