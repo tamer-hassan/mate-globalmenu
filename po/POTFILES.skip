@@ -1,0 +1,14 @@
+applet/GlobalMenu_MatePanelApplet.server.in
+xfce/GlobalMenu_XFCEPlugin.desktop.in
+gtk-modules/globalmenu/tests/test-unload.glade
+gtk-modules/globalmenu/tests/test-unload.ui
+applet/applet.c
+applet/application.c
+applet/gtkextra-mateconfdialog.c
+applet/main.c
+applet/switcher.c
+applet/workspaceselector.c
+globalmenu-plugin/module-main.c
+libserver/globalmenuitem.c
+libserver/widgets/menuitem.c
+tools/globalmenu-settings.c

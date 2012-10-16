@@ -1,0 +1,14 @@
+Post Installation
+================
+
+- With the Applet
+
+1. Add the applet (GlobalMenu MatePanelApplet) to the panel.
+2. Enable the Gtk Plugin from the preference window of the applet.
+
+- With Mate Panel
+
+Enable the following mateconf keys via mateconf-editor
+ apps/mate_settings_daemon/gtk_modules/globalmenu-mate-panel
+Add Panel Menu Bar to the top panel if it is not already there
+

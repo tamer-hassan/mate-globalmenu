@@ -1,0 +1,116 @@
+# Polish translation for globalmenu
+# Copyright (c) 2009 Rosetta Contributors and Canonical Ltd 2009
+# This file is distributed under the same license as the globalmenu package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: globalmenu\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2009-05-05 17:11-0400\n"
+"PO-Revision-Date: 2009-05-18 18:06+0000\n"
+"Last-Translator: Jakub Kamecki <rezydent@gmail.com>\n"
+"Language-Team: Polish <pl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2009-10-29 01:12+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../mate-globalmenu.schemas.in.h:1
+msgid "Add a handle to the applet"
+msgstr "Dodaj nazwę dla apletu"
+
+#: ../mate-globalmenu.schemas.in.h:2
+msgid "Add window action menu entries to active application name menu"
+msgstr "Dodaj akcje dotyczące okna do menu z nazwą aktywnej aplikacji"
+
+#: ../mate-globalmenu.schemas.in.h:3
+msgid "Disable checking the GTK plugin module at startup"
+msgstr "Wyłącz sprawdzanie pluginu modułu GTK podczas startu"
+
+#: ../mate-globalmenu.schemas.in.h:4
+msgid ""
+"Disable checking the GTK plugin module at startup. If you know the module is "
+"loaded but for some reasons the applet cannot correctly detect this fact, "
+"set this key to true to skip the checking."
+msgstr ""
+"Wyłącz sprawdzanie pluginu modułu GTK podczas startu. Jeśli wiesz, że moduł "
+"jest załadowany ale z jakichś względów aplet ma problem z jego wykryciem "
+"zaznacz to pole aby ominąć sprawdzanie tego."
+
+#: ../mate-globalmenu.schemas.in.h:5
+msgid "Enable Global Menu For GTK applications"
+msgstr "Włącz Global Menu dla aplikacji GTK"
+
+#: ../mate-globalmenu.schemas.in.h:6
+msgid "Enable the Window Actions"
+msgstr "Włącz akcje okien"
+
+#: ../mate-globalmenu.schemas.in.h:7
+msgid "Enabled the Window List"
+msgstr "Włącz listę okien"
+
+#: ../mate-globalmenu.schemas.in.h:8
+msgid ""
+"If this key is true, libglobalmenu-mate, the GTK plugin for Global Menu is "
+"loaded."
+msgstr ""
+"Jeśli ten klucz jest prawdziwy to, libglobalmenu-mate, plugin GTK dla "
+"Globak Menu jest załadowany."
+
+#: ../mate-globalmenu.schemas.in.h:9
+msgid "Maximum length of the title area"
+msgstr "Maksymalny rozmiar pola tytułu"
+
+#: ../mate-globalmenu.schemas.in.h:10
+msgid "Show the icon of the action window in the applet"
+msgstr "Pokaż ikonę okna akcji w aplecie"
+
+#: ../mate-globalmenu.schemas.in.h:11
+msgid "Show the icon of the active window in the applet when enabled."
+msgstr "Pokaż ikonę aktywnego okna w aplecie gdy opcja jest włączona."
+
+#: ../mate-globalmenu.schemas.in.h:12
+msgid "Show the name of the active application in the applet"
+msgstr "Pokaż nazwę aktywnej aplikacji w aplecie"
+
+#: ../mate-globalmenu.schemas.in.h:13
+msgid "Show the name of the active application in the applet when enabled"
+msgstr "Pokaż nazwę aktywnej aplikacji w aplecie gdy opcja jest włączona"
+
+#: ../mate-globalmenu.schemas.in.h:14
+msgid ""
+"Specify if the applet has a handle. When the handle is enabled, the applet "
+"will not expand to occupy the remaining empty area on the panel."
+msgstr ""
+"Określ czy aplet ma posiadać ogranicznik. Gdy jest on włączony aplet nie "
+"rozszerzy się aby zająć całą dostępną przestrzeń na panelu."
+
+#: ../mate-globalmenu.schemas.in.h:15
+msgid "Switch among applications via the application name label"
+msgstr "Przełączaj się pomiędzy aplikacjiami poprzez napis nazwy aplikacji"
+
+#: ../mate-globalmenu.schemas.in.h:16
+msgid "The maximum length of name of the active application, in pixels"
+msgstr "Maksymalna długość nazwy aktywnej aplikacji, w pikselach"
+
+#: ../applet/GlobalMenu_MatePanelApplet.server.in.in.h:1
+msgid "Global Menu Panel Applet"
+msgstr "Global Menu Panel Aplet"
+
+#: ../applet/GlobalMenu_MatePanelApplet.server.in.in.h:2
+msgid "GlobalMenu.MatePanelApplet Factory"
+msgstr "Fabryka GlobalMenu.MatePanelApplet"
+
+#: ../applet/GlobalMenu_MatePanelApplet.server.in.in.h:3
+msgid "The factory to build GlobalMenu.MatePanelApplet objects"
+msgstr "Narzędzie do budowania obiektów GlobalMenu.MatePanelApplet"
+
+#: ../xfce/GlobalMenu_XFCEPlugin.desktop.in.in.h:1
+msgid "Global Menu Plugin for XFCE Panel"
+msgstr "Global Menu plugin dla XFCE Panel"
+
+#: ../xfce/GlobalMenu_XFCEPlugin.desktop.in.in.h:2
+msgid "The Global Menu Plugin for XFCE Panel"
+msgstr "Plugin Global Menu dla panelu XFCE"
