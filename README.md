@@ -71,4 +71,7 @@ do occur: Save your work before toggling Global Menu! So please immediately
 restart your gnome sessionafter changing this key"
 
   [1]: http://code.google.com/p/gnome2-globalmenu/wiki/BuildFromSource
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1f4dbf8ffff9c0dec8159dd22d733111e22358bd
